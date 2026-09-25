@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heart {
+    position: relative;
+    width: 700px;
+    height: 700px;
+}
+
+.love {
+    position: absolute;
+    color: #ffb6c1;
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: bold;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
