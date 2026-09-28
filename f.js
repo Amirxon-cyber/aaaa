@@ -39,8 +39,8 @@ function drawHeart() {
 
     const text = document.createElement("div");
 
-    text.className = "love";
-    text.innerText = "I love you";
+    text.className = "67";
+    text.innerText = "6767";
 
     text.style.left = words[i].x + "px";
     text.style.top = words[i].y + "px";
